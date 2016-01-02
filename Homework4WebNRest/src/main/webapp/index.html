@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+Post form
+<form action="rest/PostMessageRESTApplication" method="post">
+Name: <input name="username" value="myname"><br/>
+Password: <input type="password" name="passwd" value="***"><br/>
+<button type="submit">mehet</button>
+</form>
+
+GetForm
+<form action="rest/GetMessageRESTApplication" method="get">
+Name: <input name="username" value="myname"><br/>
+Message: <input name="message" value="test"><br/>
+<button type="submit">mehet</button>
+</form>
+
+PathForm
+<form action="rest/GetPathMessageRESTApplication/login/1234" method="get">
+<button type="submit">mehet</button>
+</form>
+
+<form action="rest/GetCookieMessageRESTApplication" method="get">
+<button type="submit">mehet</button>
+</form>
+
+</body>
+</html>
